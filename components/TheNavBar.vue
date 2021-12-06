@@ -4,7 +4,7 @@
       <nuxt-link class="logo text-lg" :to="{ name: 'index' }"
         >Nuxt fundamentals</nuxt-link
       >
-      <span class="subheader">Learning</span>
+      <span class="subheader">Martynas Voldemaras</span>
     </div>
   </nav>
 </template>

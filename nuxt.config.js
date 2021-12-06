@@ -1,5 +1,9 @@
-export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
+module.exports = {
+  mode: 'universal',
+
+  generate: {
+    routes: ['/posts/balut', '/posts/whereIsIt', '/posts/how'],
+  },
   head: {
     title: 'nuxt-fundamentals',
     htmlAttrs: {
